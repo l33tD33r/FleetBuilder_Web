@@ -1,0 +1,82 @@
+﻿.stat-icon {
+    width: 32px;
+    height: 36px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.stat-value {
+    width: 28px;
+    height: 24px;
+    
+    border-width: 2px 2px 2px 0;
+    border-style: solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    text-align: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.squadron-stat, .ship-stat {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+.speed-stat {
+    border-color: #FFFA09;
+    color: #FFFA09;
+    .stat-icon {
+        background-color: #222222;
+    }
+}
+
+.hull-points-stat {
+    border-color: #FFFDE7;
+    color: #FFFDE7;
+    .stat-icon {
+        background-color: #222222;
+    }
+}
+
+.squadron-attack-stat {
+    border-color: #2F97C2;
+    color: #2F97C2;
+    .stat-icon {
+        background-color: #E7F5FE;
+    }
+    .stat-value {
+        background-color: white;
+    }
+}
+
+.ship-attack-stat {
+    border-color: orange;
+    color: orange;
+    .stat-icon {
+        background-color: #E02E2D;
+    }
+    .stat-value {
+        background-color: white;
+    }
+}
+
+.defense-token {
+    background-color: #206841;
+
+    border-color: #51A04B;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}

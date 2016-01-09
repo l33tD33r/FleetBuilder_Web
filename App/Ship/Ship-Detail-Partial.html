@@ -1,0 +1,32 @@
+﻿<div class="header">
+    <span data-ng-bind="ship.name"></span>
+</div>
+<div class="stats">
+    <fleet-builder-stat class="ship-stat hull-points-stat" stat="HullPoints" value="ship.hullPoints"></fleet-builder-stat>
+    <fleet-builder-attack-dice-stat class="ship-stat squadron-attack-stat" stat="SquadronAttack" attack-dice="ship.squadronAttack"></fleet-builder-attack-dice-stat>
+</div>
+<div class="attributes">
+    <fleet-builder-property class="attribute" name="COMMAND" value="ship.command"></fleet-builder-property>
+    <fleet-builder-property class="attribute" name="SQUADRON" value="ship.squadron"></fleet-builder-property>
+    <fleet-builder-property class="attribute" name="ENGINEERING" value="ship.engineering"></fleet-builder-property>
+</div>
+<div class="defenses">
+    <fleet-builder-defense-token ng-repeat="defense in ship.defenses track by $index" defense="defense"></fleet-builder-defense-token>
+</div>
+<div class="speed-chart">
+    <fleet-builder-ship-speed-chart speed-table="ship.speedTable"></fleet-builder-ship-speed-chart>
+</div>
+<div class="hull-zones">
+    <fleet-builder-hull-zone class="hull-zone bow-hull-zone" hull-zone="ship.bow"></fleet-builder-hull-zone>
+    <fleet-builder-hull-zone class="hull-zone starboard-hull-zone" hull-zone="ship.starboard"></fleet-builder-hull-zone>
+    <fleet-builder-hull-zone class="hull-zone stern-hull-zone" hull-zone="ship.stern"></fleet-builder-hull-zone>
+    <fleet-builder-hull-zone class="hull-zone port-hull-zone" hull-zone="ship.port"></fleet-builder-hull-zone>
+    <img class="hull-zone-icon" fleet-builder-icon type="HullZone" id="{{ship.type}}" />
+</div>
+<div class="footer">
+    <img class="ship-type" fleet-builder-icon type="Ship" id="{{ship.type}}" />
+    <div class="ship-upgrade-options">
+        <img class="ship-upgrade-option" ng-repeat="upgrade in ship.upgradeOptions track by $index" fleet-builder-icon type="ShipUpgrade" id="{{upgrade}}" />
+    </div>
+    <div class="ship-point-cost" data-ng-bind="ship.pointCost"></div>
+</div>

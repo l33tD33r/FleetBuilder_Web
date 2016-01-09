@@ -1,0 +1,9 @@
+﻿<div class="ship-viewer-master">
+    <div class="ship-viewer-ship" ng-repeat="ship in ships track by $index" ng-click="shipSelected(ship)">
+        <img class="ship-type" fleet-builder-icon type="Ship" id="{{ship.type}}" />
+        <div class="ship-name" data-ng-bind="ship.name"></div>
+    </div>
+</div>
+<div class="ship-viewer-details">
+    <fleet-builder-ship-detail class="ship-detail faction-{{ship.faction}}" ship="selectedShip"></fleet-builder-ship-detail>
+</div>

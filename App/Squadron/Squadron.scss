@@ -1,0 +1,100 @@
+﻿.squadron-detail {
+
+    width: 300px;
+    height: 300px;
+    
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+
+    .header {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border: 2px solid black;
+
+        .hero {
+            height: 24px;
+        }
+    }
+
+    .stats {
+        border: 2px solid black;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .details {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border: 2px solid black;
+        font-size: 14px;
+
+        height: 120px;
+
+        .keywords {
+            font-weight: bold;
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        height: 40px;
+
+        .squadron-type, .squadron-point-cost {
+            display: inline-block;
+
+            padding: 0;
+            margin: 0;
+
+            background-color: white;
+            color: black;
+        }
+
+        .squadron-type {
+            height: 30px;
+            width: 30px;
+            padding: 0;
+            margin: 0;
+            
+            border: 2px solid #929697;
+            border-radius: 15px;
+        }
+
+        .squadron-defenses {
+            display: inline-block;
+            border: 2px solid #929697;
+            padding: 2px;
+            margin: 0;
+            border-radius: 5px;
+
+            fleet-builder-defense-token {
+                padding: 0;
+                margin: 1px;
+            }
+        }
+
+        .squadron-point-cost {
+            width: 50px;
+            height: 20px;
+
+            border: 2px solid #929697;
+            border-radius: 2px;
+            font-size: 12px;
+            
+            text-align: center;
+            line-height: 20px;
+            white-space: nowrap;
+        }
+    }
+}

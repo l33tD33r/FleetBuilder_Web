@@ -1,0 +1,25 @@
+﻿<div class="header">
+    <div class="hero" data-ng-bind="squadron.hero"></div>
+    <span data-ng-bind="squadron.name"></span>
+</div>
+<div class="stats">
+    <fleet-builder-stat class="squadron-stat speed-stat" stat="Speed" value="squadron.speed"></fleet-builder-stat>
+    <fleet-builder-stat class="squadron-stat hull-points-stat" stat="HullPoints" value="squadron.hullPoints"></fleet-builder-stat>
+    <fleet-builder-attack-dice-stat class="squadron-stat squadron-attack-stat" stat="SquadronAttack" attack-dice="squadron.squadronAttack"></fleet-builder-attack-dice-stat>
+    <fleet-builder-attack-dice-stat class="squadron-stat ship-attack-stat" stat="ShipAttack" attack-dice="squadron.shipAttack"></fleet-builder-attack-dice-stat>
+</div>
+<div class="details">
+    <div class="abilities" ng-show="squadron.abilities">
+        <div ng-repeat="ability in squadron.abilities" data-ng-bind="ability"></div>
+    </div>
+    <div class="keywords" ng-show="squadron.keywords">
+        <div ng-repeat="keyword in squadron.keywords" data-ng-bind="keyword"></div>
+    </div>
+</div>
+<div class="footer">
+    <img class="squadron-type" fleet-builder-icon type="Squadron" id="{{squadron.type}}" />
+    <div class="squadron-defenses" ng-show="squadron.defenses && squadron.defenses.length > 0">
+        <fleet-builder-defense-token ng-repeat="defense in squadron.defenses track by $index" defense="defense"></fleet-builder-defense-token>
+    </div>
+    <div class="squadron-point-cost" data-ng-bind="squadron.pointCost"></div>
+</div>

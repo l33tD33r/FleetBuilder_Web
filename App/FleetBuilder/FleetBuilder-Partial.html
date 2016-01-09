@@ -1,0 +1,34 @@
+﻿<div class="fleet-builder">
+    <div class="fleet-name">
+        Name:
+        <input ng-model="fleet.name" />
+    </div>
+    <div class="fleet-ships">
+        <div class="fleet-header">Ships</div>
+        <fleet-builder-ship-viewer ships="fleet.ships"></fleet-builder-ship-viewer>
+    </div>
+    <div class="fleet-squadrons">
+        <div class="fleet-header">Squadrons</div>
+        <div class="fleet-squadrons-container">
+            <div class="fleet-squadron" ng-repeat="squadron in fleet.squadrons">
+                <img class="squadron-type" fleet-builder-icon type="Squadron" id="{{squadron.type}}" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="available-ships">
+    <div class="available-header">Available Ships</div>
+    <fleet-builder-ship-viewer ships="availableShips"></fleet-builder-ship-viewer>
+</div>
+<div class="available-squadrons">
+
+</div>
+<div class="available-commanders">
+
+</div>
+<div class="available-upgrades">
+
+</div>
+<div class="available-titles">
+
+</div>

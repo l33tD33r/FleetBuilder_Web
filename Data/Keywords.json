@@ -1,0 +1,38 @@
+﻿[
+  {
+    "name": "Bomber",
+    "description": "While attacking a ship, each of your <critical/> icons add a damage to the damage total and you can resolve a critical effect."
+  },
+  {
+    "name": "Counter 1",
+    "description": "After a squadron performs a non-<b>COUNTER</b> attack against you, you may attack that squadron with an anti-squadron armament of 1 blue dice, even if you are destroyed."
+  },
+  {
+    "name": "Counter 2",
+    "description": "After a squadron performs a non-<b>COUNTER</b> attack against you, you may attack that squadron with an anti-squadron armament of 2 blue dice, even if you are destroyed."
+  },
+  {
+    "name": "Escort",
+    "description": "Squadrons you are engaged with cannot attack squadrons that lack <b>ESCORT</b> unless performing a <b>COUNTER</b> attack."
+  },
+  {
+    "name": "Grit",
+    "description": "You are not prevented from moving while you are engaged by only 1 squadron."
+  },
+  {
+    "name": "Heavy",
+    "description": "You do not prevent engaged squadrons from attacking ships or moving."
+  },
+  {
+    "name": "Intel",
+    "description": "While an enemy squadron is at distance 1 of you, it has <b>HEAVY</b>."
+  },
+  {
+    "name": "Rogue",
+    "description": "You can move and attack during the Squadron Phase."
+  },
+  {
+    "name": "Swarm",
+    "description": "While attacking a squadron engaged with another squadron, you may reroll 1 die."
+  }
+]

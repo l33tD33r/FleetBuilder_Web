@@ -1,0 +1,381 @@
+﻿.ship-detail {
+
+    width: 280px;
+    height: 390px;
+
+    margin: 5px;
+    font-size: 20px;
+
+    position: relative;
+
+    .header {
+        position: absolute;
+
+        width: 260px;
+
+        background-color: white;
+        color: black;
+        padding: 5px;
+        margin: 5px;
+
+        border: 2px solid black;
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .stats {
+        position: absolute;
+        top: 40px;
+        width: 140px;
+
+        margin: 5px;
+        padding: 5px;
+
+        border: 2px solid white;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .attributes {
+        position: absolute;
+        right: 0;
+        top: 40px;
+
+        height: 85px;
+        width: 115px;
+        
+        margin: 5px;
+        padding: 0 5px 0 5px;
+
+        border: 2px solid white;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        .attribute {
+            position: relative;
+
+            background-color: black;
+            width: 100px;
+            height: 25px;
+
+            padding: 0;
+            margin: 0;
+
+            .property {
+                position: relative;
+                background-color: white;
+                color: black;
+                font-size: 10px;
+                font-weight: bold;
+                border: 0 solid black;
+                border-radius: 2px;
+                padding: 5px;
+                margin: 1px;
+
+                text-align: center;
+            }
+
+            .property-value {
+                width: 20px;
+                height: 30px;
+            }
+
+            .property-name {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    }
+
+    .defenses {
+        position: absolute;
+        top: 110px;
+
+        width: 115px;
+        height: 81px;
+
+        margin: 5px;
+        padding: 5px;
+
+        display: inline-block;
+        border: 2px solid white;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        fleet-builder-defense-token {
+            width: 50px;
+            height: 34px;
+
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .speed-chart {
+        position: absolute;
+        
+        width: 115px;
+
+        top: 197px;
+
+        margin: 5px;
+        padding: 5px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        border: 2px solid white;
+        border-radius: 5px;
+
+        .speed-cell {
+            position: relative;
+
+            border: 0 solid black;
+            border-radius: 5px;
+            height: 21px;
+            width: 21px;
+            display: inline-block;
+            margin: 2px;
+            font-size: 14px;
+            text-align: center;
+            line-height: 20px;
+
+            vertical-align: top;
+        }
+
+        .no-speed-cell {
+            background-color: #222222;
+        }
+
+        .no-maneuver-cell {
+            background-color: maroon;
+        }
+
+        .maneuver-cell {
+            background-color: white;
+            color: black;
+        }
+
+        .speed-label-cell {
+            background-color: black;
+            border: 1px solid gray;
+            color: white;
+        }
+    }
+
+    .hull-zones {
+        position: absolute;
+        top: 130px;
+        right: 0;
+
+        width: 140px;
+        height: 204px;
+
+        border: 2px solid white;
+        border-radius: 5px;
+
+        margin: 5px;
+        padding: 0;
+
+        .hull-zone {
+            display: inline-block;
+            position: inherit;
+            height: 26px;
+
+            margin: 2px;
+
+            .hull-zone-attack {
+                position: inherit;
+
+                width: 64px;
+                height: 24px;
+    
+                background-color: white;
+
+                border-color: #2F97C2;
+                border-style: solid;
+
+                border-width: 2px 0 2px 2px;
+                
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+
+                text-align: center;
+
+                padding: 0;
+                margin: 0;
+            }
+
+            .hull-zone-shields {
+                position: inherit;
+
+                width: 26px;
+                height: 26px;
+
+                background-color: white;
+
+                border-color: #2F97C2;
+                border-style: solid;
+
+                border-width: 4px;
+                border-radius: 13px;
+
+                color: black;
+                font-size: 16px;
+                font-weight: bold;
+
+                text-align: center;
+                line-height: 18px;
+            }
+        }
+
+        .bow-hull-zone {
+            left: 30px;
+            top: 2px;
+            .hull-zone-attack {
+                top: 1px;
+            }
+
+            .hull-zone-shields {
+                top: 0;
+                left: 50px;
+            }
+        }
+
+        .starboard-hull-zone {
+            top: 75px;
+            left: 100px;
+            .hull-zone-attack {
+                left: 1px;
+                transform: rotate(90deg) translate(0,20px);
+            }
+
+            .hull-zone-shields {
+                top: 30px;
+            }
+        }
+
+        .stern-hull-zone {
+            top: 165px;
+            left: 30px;
+            .hull-zone-attack {
+                top: 1px;
+            }
+
+            .hull-zone-shields {
+                left: 50px;
+            }
+        }
+
+        .port-hull-zone {
+            top: 75px;
+            left: 5px;
+            .hull-zone-attack {
+                left: 1px;
+                transform: rotate(90deg) translate(0,20px);
+            }
+            .hull-zone-shields {
+                top: 30px;
+            }
+        }
+
+        .hull-zone-icon {
+            position: inherit;
+            top: 30px;
+            left: 32px;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        height: 30px;
+        width: 260px;
+
+        margin: 5px;
+
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        
+
+        .ship-type, .ship-point-cost {
+            display: inline-block;
+
+            padding: 0;
+            margin: 0;
+
+            background-color: white;
+            color: black;
+        }
+
+        .ship-type {
+            padding: 0;
+            margin: 0;
+            
+            border: 0 solid black;
+            border-radius: 5px;
+        }
+
+        .ship-upgrade-options {
+            height: 30px;
+
+            border: 2px solid white;
+            border-radius: 5px;
+
+            padding: 2px;
+            margin: 0 5px 0 5px;
+
+            flex-basis: 100%;
+
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: flex-end;
+            align-content: flex-end;
+            
+            .ship-upgrade-option {
+                padding: 0;
+                margin: 1px;
+            }
+        }
+
+        .ship-point-cost {
+            width: 50px;
+            height: 20px;
+
+            border: 0 solid black;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            
+            text-align: center;
+            line-height: 20px;
+            white-space: nowrap;
+        }
+    }
+}

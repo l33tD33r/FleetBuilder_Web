@@ -1,0 +1,337 @@
+﻿[
+  {
+    "type": "Officer",
+    "name": "Veteran Captain",
+    "description": "When you reveal a command, you may discard this card to gain 1 command token of your choice.",
+    "pointCost": 3
+  },
+  {
+    "type": "Officer",
+    "name": "Weapons Liaison",
+    "description": "Before you reveal a command, you may spend 1 command token to change that command to a <concentrateFire/> or <squadron/> command.",
+    "pointCost": 3
+  },
+  {
+    "type": "Officer",
+    "name": "Defense Liaison",
+    "description": "Before you reveal a command, you may spend 1 command token to change that command to a <navigate/> or <engineering/> command.",
+    "pointCost": 3
+  },
+  {
+    "type": "Officer",
+    "name": "Support Officer",
+    "description": "At the start of the Command Phase, you may discard this card to discard all of your command dials.",
+    "pointCost": 4
+  },
+  {
+    "type": "Officer",
+    "name": "Navigation Officer",
+    "description": "Before you reveal a command, you may chnage that command to a <navigate/> command.",
+    "pointCost": 6
+  },
+  {
+    "type": "Officer",
+    "name": "Wing Commander",
+    "description": "Before you reveal a command, you may chnage that command to a <squadron/> command.",
+    "pointCost": 6
+  },
+  {
+    "type": "Officer",
+    "name": "Tactical Expert",
+    "description": "Before you reveal a command, you may chnage that command to a <concentrateFire/> command.",
+    "pointCost": 6
+  },
+  {
+    "type": "Officer",
+    "name": "Engineering Captain",
+    "description": "Before you reveal a command, you may chnage that command to a <engineering/> command.",
+    "pointCost": 6
+  },
+  {
+    "type": "Officer",
+    "name": "Intel Officer",
+    "description": "While attacking, after you roll your attack pool, you may exhaust this card to choose 1 defense token. If that token is spent during this attack, discard that token.",
+    "pointCost": 7
+  },
+  {
+    "faction": "Rebel",
+    "type": "Officer",
+    "name": "Leia Organa",
+    "description": "When you reveal a command, you may choose another friendly ship at distance 1-5 and change that ship's top command to your revealed command.",
+    "pointCost": 3
+  },
+  {
+    "faction": "Rebel",
+    "type": "Officer",
+    "name": "Lando Calrissian",
+    "description": "While defending, during the Spend Defense tokens Step, you may discard this card to force the attacker to reroll 1 or more dice of your choice.",
+    "pointCost": 4
+  },
+  {
+    "faction": "Rebel",
+    "type": "Officer",
+    "name": "Walex Blissex",
+    "description": "When you activate, you may discard this card to recover 1 of your discarded defense tokens.",
+    "pointCost": 5
+  },
+  {
+    "faction": "Rebel",
+    "type": "Officer",
+    "name": "Raymus Antilles",
+    "description": "When you reveal a command, you may gain 1 matching command token without spending the command dial.",
+    "pointCost": 7
+  },
+  {
+    "faction": "Rebel",
+    "type": "Officer",
+    "name": "Adar Tallon",
+    "description": "After you resolve a <squadron/> command, exhaust this card to toggle the activation slider of 1 squadron activated with that command.",
+    "pointCost": 10
+  },
+  {
+    "faction": "Imperial",
+    "type": "Officer",
+    "name": "Captain Needa",
+    "description": "At the start of the first round, you may replace 1 of your defense tokens with an <evade/> defense token.",
+    "pointCost": 2
+  },
+  {
+    "faction": "Imperial",
+    "type": "Officer",
+    "name": "Director Isard",
+    "description": "When you reveal a command, you may look at all command dials assigned to 1 enemy ship.",
+    "pointCost": 3
+  },
+  {
+    "faction": "Imperial",
+    "type": "Officer",
+    "name": "Admiral Montferrat",
+    "description": "While defending against a ship, if your speed is 3 or higher, the attack is treated as obstructed.<br/>After you execute a maneuver, if you overlapped a ship, discard this card.",
+    "pointCost": 5
+  },
+  {
+    "faction": "Imperial",
+    "type": "Officer",
+    "name": "Flight Controllers",
+    "description": "<squadron/>: the anti-squadron armament of each squadron that you activate is increased by 1 blue die until the end of its activation.",
+    "pointCost": 6
+  },
+  {
+    "faction": "Imperial",
+    "type": "Officer",
+    "name": "Wulff Yularen",
+    "description": "When you spend a command token, you may exhaust this card to gain 1 command token of the same type.",
+    "pointCost": 7
+  },
+  {
+    "faction": "Imperial",
+    "type": "Officer",
+    "name": "Admiral Chiraneau",
+    "description": "<squadron/> Squadrons that you activate can move even if they are engaged. When an engaged suqadron moves in this way, treat it as having a printed speed of \"2.",
+    "pointCost": 10
+  },
+  {
+    "type": "WeaponsTeam",
+    "name": "Ordnance Experts",
+    "description": "While attacking, you may reroll any number of your black dice.",
+    "pointCost": 4
+  },
+  {
+    "type": "WeaponsTeam",
+    "name": "Ruthless Strategists",
+    "description": "After attacking a squadron, you may deal 1 damage to a friendly squadron engaged with the defender. If you do, the defender suffers 1 damage.",
+    "pointCost": 4
+  },
+  {
+    "type": "WeaponsTeam",
+    "name": "Sensor Team",
+    "description": "While attacking, you may exhaust this card and spend 1 die to change 1 of your dice to a face with an <accuracy/> icon.",
+    "pointCost": 5
+  },
+  {
+    "type": "WeaponsTeam",
+    "name": "Gunnery Team",
+    "description": "You can attack from the same hull zone more than once per activation. That hull zone cannot target the same ship or squadron more than once during that activation.",
+    "pointCost": 7
+  },
+  {
+    "type": "SupportTeam",
+    "name": "Nav Team",
+    "description": "<navigate/>: Your <navigate/> tokens can either change your speed or increase 1 yaw value by 1.",
+    "pointCost": 4
+  },
+  {
+    "type": "SupportTeam",
+    "name": "Engineering Team",
+    "description": "<engineering/>: Gain 1 aditional engineering point.",
+    "pointCost": 5
+  },
+  {
+    "type": "SupportTeam",
+    "name": "Projection Experts",
+    "description": "<engineering/>: You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5.",
+    "pointCost": 0
+  },
+  {
+    "type": "SupportTeam",
+    "name": "Engine Techs",
+    "description": "<navigate/>: After you execute a maneuver, you may exhaust this card to execute a 1-speed maneuver.",
+    "pointCost": 0
+  },
+  {
+    "type": "OffensiveRetrofit",
+    "name": "Boosted Comms",
+    "description": "<squadron/>: You can activate friendly squadrons at close-long range instead of close-medium.",
+    "pointCost": 4
+  },
+  {
+    "type": "OffensiveRetrofit",
+    "name": "Expanded Hangar Bay",
+    "description": "You squadron value is increased by 1.",
+    "pointCost": 5
+  },
+  {
+    "type": "OffensiveRetrofit",
+    "name": "Point-Defense Reroute",
+    "description": "While attacking a squadron at close range, you may reroll your <critical/> icons.",
+    "pointCost": 5
+  },
+  {
+    "type": "OffensiveRetrofit",
+    "name": "Quad Laser Turrets",
+    "description": "While defending at distance 1, if the attacker is a squadron, you have <b>COUNTER 1<b/>.",
+    "pointCost": 5
+  },
+  {
+    "type": "OffensiveRetrofit",
+    "modification": true,
+    "name": "Phylon Q7 Tractor Beams",
+    "description": "when you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5. That ship must spend a <navigate/> token or reduce its speed by 1 to a minimum of 1.",
+    "pointCost": 6
+  },
+  {
+    "type": "DefensiveRetrofit",
+    "name": "Cluster Bombs",
+    "description": "After a squadron perfoms an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice. That squadron suffers 1 damage for each <damage/> or <critical/> icon rolled.",
+    "pointCost": 5
+  },
+  {
+    "type": "DefensiveRetrofit",
+    "name": "Advanced Projectors",
+    "description": "When you resolve the <redirect/> token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone.",
+    "pointCost": 6
+  },
+  {
+    "type": "DefensiveRetrofit",
+    "name": "Electronic Countermeasures",
+    "description": "While defending, you may exhaust this card to spend 1 defense token that your opponent targeted with an <accuracy/> result.",
+    "pointCost": 7
+  },
+  {
+    "type": "DefensiveRetrofit",
+    "modification": true,
+    "name": "Redundant Shields",
+    "description": "At the start of each Status Phase, you may recover 1 shield.",
+    "pointCost": 8
+  },
+  {
+    "type": "Turbolasers",
+    "name": "XX-9 Turbolasers",
+    "description": "<critical/>: The first 2 damage cards dealt to the defender by this attack are dealt faceup.",
+    "pointCost": 5
+  },
+  {
+    "type": "Turbolasers",
+    "name": "Heavy Turbolaser Turrets",
+    "description": "While attacking, the <brace/> deffense effect cannot reduce the damage total by more than 1 unless it is the only defense token spend by the defender during the attack.",
+    "pointCost": 6
+  },
+  {
+    "type": "Turbolasers",
+    "modification": true,
+    "name": "Slaved Turrets",
+    "description": "You cannot attack more than once per round.<br/>While attacking a ship, add 1 red die to your attack pool.",
+    "pointCost": 6
+  },
+  {
+    "type": "Turbolasers",
+    "name": "X17 Turbolasers",
+    "description": "While attacking, if the defender spends a <redirect/> token, it cannot suffer more than 1 damage on hull zones other than the defending hull zone.",
+    "pointCost": 6
+  },
+  {
+    "type": "Turbolasers",
+    "name": "Turbolaser Reroute Circuits",
+    "description": "While attacking, you may spend 1 <evade/> defense token to change 1 red die to a face with a <critical/> icon or 2 <damage/> icons.",
+    "pointCost": 7
+  },
+  {
+    "type": "Turbolasers",
+    "name": "H9 Turbolasers",
+    "description": "While attacking, you may change 1 die face with a <damage/> or <critical/> icon to a face with an <accuracy/> icon.",
+    "pointCost": 8
+  },
+  {
+    "type": "Turbolasers",
+    "modification": true,
+    "name": "Enhanced Armament",
+    "description": "the battery armaments for your left and right hull zones are increased by 1 red die.",
+    "pointCost": 10
+  },
+  {
+    "type": "IonCannons",
+    "name": "Leading Shots",
+    "description": "While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool.",
+    "pointCost": 4
+  },
+  {
+    "type": "IonCannons",
+    "name": "Ion Cannon Batteries",
+    "description": "<b>BLUE</b> <critical/>: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instead.",
+    "pointCost": 5
+  },
+  {
+    "type": "IonCannons",
+    "name": "SW-7 Ion Batteries",
+    "description": "While attacking a ship, each of your unspent <accuracy/> icons adds 1 damage to the damage total.",
+    "pointCost": 5
+  },
+  {
+    "type": "IonCannons",
+    "name": "Overload Pulse",
+    "description": "<b>BLUE</b> <critical/>: Exhaust all of the defender's defense tokens.",
+    "pointCost": 8
+  },
+  {
+    "type": "IonCannons",
+    "name": "NK-7 Ion Cannons",
+    "description": "<b>BLUE</b> <critical/>: You may exhaust this card to force the defender to choose and discard 1 of his defense tokens.",
+    "pointCost": 10
+  },
+  {
+    "type": "Ordnance",
+    "name": "Assault Proton Torpedoes",
+    "description": "<b>BLACK</b> <critical/>: Deal 1 faceup damage card to the defender.",
+    "pointCost": 5
+  },
+  {
+    "type": "Ordnance",
+    "name": "Assault Concussion Missiles",
+    "description": "<b>BLACK</b> <critical/>: Each hull zones adjacent to the defending hull zone suffers 1 damage.",
+    "pointCost": 7
+  },
+  {
+    "type": "Ordnance",
+    "modification": true,
+    "name": "Rapid Reload",
+    "description": "the battery armaments for your left and right hull zones are increased by 1 black die.",
+    "pointCost": 8
+  },
+  {
+    "type": "Ordnance",
+    "modification": true,
+    "name": "Expanded Launchers",
+    "description": "The battery armament for your front hull zone is increased by 2 black dice.",
+    "pointCost": 13
+  }
+]

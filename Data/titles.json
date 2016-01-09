@@ -1,0 +1,163 @@
+﻿[
+  {
+    "faction": "Rebel",
+    "type": "CorellianCorvette",
+    "name": "Jaina's Light",
+    "description": "You can ignore the effects of overlapping obstacles.<br/>You attacks cannot be obstructed.",
+    "pointCost": 2
+  },
+  {
+    "faction": "Rebel",
+    "type": "CorellianCorvette",
+    "name": "Tantive IV",
+    "description": "Before you gain a command token, 1 friendly ship at distance 1-5 may gain that token instead.",
+    "pointCost": 3
+  },
+  {
+    "faction": "Rebel",
+    "type": "CorellianCorvette",
+    "name": "Dodonna's Pride",
+    "description": "<b>BLUE<b> <critical/>: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+    "pointCost": 6
+  },
+  {
+    "faction": "Rebel",
+    "type": "NebulonFrigate",
+    "name": "Yavaris",
+    "description": "<squadron/>: Each squadron you activate can attack twice if it does not move.",
+    "pointCost": 5
+  },
+  {
+    "faction": "Rebel",
+    "type": "NebulonFrigate",
+    "name": "Salvation",
+    "description": "While attacking a ship from your front hull zone, your <critical/> icons count as 2 damage instead of 1.",
+    "pointCost": 7
+  },
+  {
+    "faction": "Rebel",
+    "type": "NebulonFrigate",
+    "name": "Redemption",
+    "description": "when a friendly ship at distance 1-5 resolves a <engineering/> command, it gains 1 additional engineering point.",
+    "pointCost": 8
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalFrigate",
+    "name": "Foresight",
+    "description": "When you resolve the <evade/> defense effect, you can affect 1 additional die.<br/>When you resolve the <redirect/> defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
+    "pointCost": 8
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalFrigate",
+    "name": "Admonition",
+    "description": "When defending, during the Spend Defense Tokens Step, you may discard a defense token to cancel 1 attack die.",
+    "pointCost": 8
+  },
+  {
+    "faction": "Rebel",
+    "type": "AssaultFrigate",
+    "name": "Paragon",
+    "description": "While attacking a ship you have already attacked this round, add 1 black die to your attack pool.",
+    "pointCost": 5
+  },
+  {
+    "faction": "Rebel",
+    "type": "AssaultFrigate",
+    "name": "Gallant Haven",
+    "description": "Before a friendly squadron at distance 1 suffers damage from an attack, reduce the total damage by 1.",
+    "pointCost": 8
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalCruiser",
+    "name": "Defiance",
+    "description": "While attacking a ship that has already activated this round, add 1 die of any color to your attack pool.",
+    "pointCost": 5
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalCruiser",
+    "name": "Home One",
+    "description": "while another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an <accuracy/> icon.",
+    "pointCost": 7
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalCruiser",
+    "name": "Independence",
+    "description": "<squadron/>: Each squadron you activate may increase its speed to 4 until the end of its activation. Squadrons that change speed in this way cannot attack this activation.",
+    "pointCost": 8
+  },
+  {
+    "faction": "Imperial",
+    "type": "RaiderCorvette",
+    "name": "Impetuous",
+    "description": "At the end of your Attack Step, choose 1 of your hull zones. You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked form that zone this round.",
+    "pointCost": 4
+  },
+  {
+    "faction": "Imperial",
+    "type": "RaiderCorvette",
+    "name": "Instigator",
+    "description": "Enemy squadrons at distance 1 are treated as if they were engaged by 2 additional squadrons, even if they are not currently engaged.",
+    "pointCost": 4
+  },
+  {
+    "faction": "Imperial",
+    "type": "GladiatorStarDestroyer",
+    "name": "Insidious",
+    "description": "the balck dice in your battery armament can be used at medium range. This effect applies only while attacking the rear hull zone of a ship.",
+    "pointCost": 3
+  },
+  {
+    "faction": "Imperial",
+    "type": "GladiatorStarDestroyer",
+    "name": "Demolisher",
+    "description": "During your activation, you can perform 1 of your attacks after you execute a maneuver.",
+    "pointCost": 10
+  },
+  {
+    "faction": "Imperial",
+    "type": "VictoryStarDestroyer",
+    "name": "Corrupter",
+    "description": "<squadron/>: The speed of each squadron with <b>BOMBER</b> you activate is incrased by 1 until the end of its activation.",
+    "pointCost": 0
+  },
+  {
+    "faction": "Imperial",
+    "type": "VictoryStarDestroyer",
+    "name": "Warlord",
+    "description": "While attacking, you may change 1 die face with an <accuracy/> icon to a face with a <damage/> icon.",
+    "pointCost": 8
+  },
+  {
+    "faction": "Imperial",
+    "type": "VictoryStarDestroyer",
+    "name": "Dominator",
+    "description": "While attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+    "pointCost": 12
+  },
+  {
+    "faction": "Imperial",
+    "type": "ImperialStarDestroyer",
+    "name": "Relentless",
+    "description": "The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1.",
+    "pointCost": 3
+  },
+  {
+    "faction": "Imperial",
+    "type": "ImperialStarDestroyer",
+    "name": "Avenger",
+    "description": "While attacking, the defender cannot spend exausted defense tokens.",
+    "pointCost": 5
+  },
+  {
+    "faction": "Imperial",
+    "type": "ImperialStarDestroyer",
+    "name": "Devastator",
+    "description": "Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.",
+    "pointCost": 10
+  }
+]

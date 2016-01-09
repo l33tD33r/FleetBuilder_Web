@@ -1,0 +1,616 @@
+﻿[
+  {
+    "faction": "Rebel",
+    "type": "CorellianCorvette",
+    "name": "CR90 Corvette B",
+    "hullPoints": 4,
+    "squadronAttack": [ "Blue" ],
+    "command": 1,
+    "squadron": 1,
+    "engineering": 2,
+    "defenses": [ "Evade", "Evade", "Redirect" ],
+    "speedTable": [
+      [ 2 ],
+      [ 1, 2 ],
+      [ 0, 1, 2 ],
+      [ 0, 1, 1, 2 ]
+    ],
+    "bow": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Blue", "Blue" ]
+    },
+    "stern": {
+      "shields": 1,
+      "shipAttack": [ "Blue" ]
+    },
+    "starboard": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Blue" ]
+    },
+    "port": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "SupportTeam", "DefensiveRetrofit", "IonCannons" ],
+    "pointCost": 39
+  },
+  {
+    "faction": "Rebel",
+    "type": "CorellianCorvette",
+    "name": "CR90 Corvette A",
+    "hullPoints": 4,
+    "squadronAttack": [ "Blue" ],
+    "command": 1,
+    "squadron": 1,
+    "engineering": 2,
+    "defenses": [ "Evade", "Evade", "Redirect" ],
+    "speedTable": [
+      [ 2 ],
+      [ 1, 2 ],
+      [ 0, 1, 2 ],
+      [ 0, 1, 1, 2 ]
+    ],
+    "bow": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "stern": {
+      "shields": 1,
+      "shipAttack": [ "Red" ]
+    },
+    "starboard": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Blue" ]
+    },
+    "port": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "SupportTeam", "DefensiveRetrofit", "Turbolasers" ],
+    "pointCost": 44
+  },
+  {
+    "faction": "Rebel",
+    "type": "NebulonFrigate",
+    "name": "Nebulon-B Support Refit",
+    "hullPoints": 5,
+    "squadronAttack": [ "Blue" ],
+    "command": 2,
+    "squadron": 1,
+    "engineering": 3,
+    "defenses": [ "Evade", "Brace", "Brace" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 2 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Red" ]
+    },
+    "starboard": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Blue" ]
+    },
+    "port": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "SupportTeam", "Turbolasers" ],
+    "pointCost": 51
+  },
+  {
+    "faction": "Rebel",
+    "type": "NebulonFrigate",
+    "name": "Nebulon-B Escort Frigate",
+    "hullPoints": 5,
+    "squadronAttack": [ "Blue", "Blue" ],
+    "command": 2,
+    "squadron": 2,
+    "engineering": 3,
+    "defenses": [ "Evade", "Brace", "Brace" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 2 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Red" ]
+    },
+    "starboard": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Blue" ]
+    },
+    "port": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "SupportTeam", "Turbolasers" ],
+    "pointCost": 57
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalFrigate",
+    "name": "MC30c Torpedo Frigate",
+    "hullPoints": 4,
+    "squadronAttack": [ "Blue" ],
+    "command": 2,
+    "squadron": 1,
+    "engineering": 3,
+    "defenses": [ "Evade", "Evade", "Redirect", "Redirect" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 2 ],
+      [ 0, 1, 1, 0 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Blue", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Black" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Black", "Black", "Black", "Blue", "Blue" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Black", "Black", "Black", "Blue", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "DefensiveRetrofit", "Ordnance", "Turbolasers" ],
+    "pointCost": 63
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalFrigate",
+    "name": "MC30c Scout Frigate",
+    "hullPoints": 4,
+    "squadronAttack": [ "Blue" ],
+    "command": 2,
+    "squadron": 1,
+    "engineering": 3,
+    "defenses": [ "Evade", "Evade", "Redirect", "Redirect" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 2 ],
+      [ 0, 1, 1, 0 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Black" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Black", "Black", "Black", "Red", "Red" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Black", "Black", "Black", "Red", "Red" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "DefensiveRetrofit", "Ordnance", "Turbolasers" ],
+    "pointCost": 69
+  },
+  {
+    "faction": "Rebel",
+    "type": "AssaultFrigate",
+    "name": "Assault Frigate Mark II B",
+    "hullPoints": 6,
+    "squadronAttack": [ "Blue" ],
+    "command": 3,
+    "squadron": 3,
+    "engineering": 4,
+    "defenses": [ "Evade", "Brace", "Redirect" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Red" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red", "Blue" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "DefensiveRetrofit", "Turbolasers" ],
+    "pointCost": 72
+  },
+  {
+    "faction": "Rebel",
+    "type": "AssaultFrigate",
+    "name": "Assault Frigate Mark II A",
+    "hullPoints": 6,
+    "squadronAttack": [ "Blue", "Blue" ],
+    "command": 3,
+    "squadron": 2,
+    "engineering": 4,
+    "defenses": [ "Evade", "Brace", "Redirect" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red", "Blue" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "DefensiveRetrofit", "Turbolasers" ],
+    "pointCost": 81
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalCruiser",
+    "name": "MC80 Command Cruiser",
+    "hullPoints": 8,
+    "squadronAttack": [ "Blue", "Black" ],
+    "command": 3,
+    "squadron": 4,
+    "engineering": 4,
+    "defenses": [ "Brace", "Redirect", "Redirect", "Contain" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ]
+    ],
+    "bow": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Blue", "Blue" ]
+    },
+    "stern": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Blue", "Blue" ]
+    },
+    "starboard": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Red", "Blue", "Blue", "Blue" ]
+    },
+    "port": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Red", "Blue", "Blue", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "SupportTeam", "OffensiveRetrofit", "DefensiveRetrofit", "IonCannons", "Turbolasers" ],
+    "pointCost": 106
+  },
+  {
+    "faction": "Rebel",
+    "type": "MonCalCruiser",
+    "name": "MC80 Assault Cruiser",
+    "hullPoints": 8,
+    "squadronAttack": [ "Blue", "Blue" ],
+    "command": 3,
+    "squadron": 3,
+    "engineering": 4,
+    "defenses": [ "Brace", "Redirect", "Redirect", "Contain" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ]
+    ],
+    "bow": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "stern": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "starboard": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Red", "Red", "Blue", "Blue" ]
+    },
+    "port": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Red", "Red", "Blue", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "SupportTeam", "DefensiveRetrofit", "DefensiveRetrofit", "IonCannons", "Turbolasers" ],
+    "pointCost": 114
+  },
+  {
+    "faction": "Imperial",
+    "type": "RaiderCorvette",
+    "name": "Raider I-class Corvette",
+    "hullPoints": 4,
+    "squadronAttack": [ "Black", "Black" ],
+    "command": 1,
+    "squadron": 1,
+    "engineering": 2,
+    "defenses": [ "Evade", "Evade", "Brace" ],
+    "speedTable": [
+      [ 2 ],
+      [ 2, 2 ],
+      [ 0, 1, 1 ],
+      [ 0, 1, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Blue", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Blue" ]
+    },
+    "starboard": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Black" ]
+    },
+    "port": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Black" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "Ordnance" ],
+    "pointCost": 44
+  },
+  {
+    "faction": "Imperial",
+    "type": "RaiderCorvette",
+    "name": "Raider II-class Corvette",
+    "hullPoints": 4,
+    "squadronAttack": [ "Blue", "Black" ],
+    "command": 1,
+    "squadron": 1,
+    "engineering": 2,
+    "defenses": [ "Evade", "Evade", "Brace" ],
+    "speedTable": [
+      [ 2 ],
+      [ 2, 2 ],
+      [ 0, 1, 1 ],
+      [ 0, 1, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Blue", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Blue" ]
+    },
+    "starboard": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Black" ]
+    },
+    "port": {
+      "shields": 2,
+      "shipAttack": [ "Blue", "Black" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "Ordnance" ],
+    "pointCost": 48
+  },
+  {
+    "faction": "Imperial",
+    "type": "GladiatorStarDestroyer",
+    "name": "Gladiator I-class Star Destroyer",
+    "hullPoints": 5,
+    "squadronAttack": [ "Blue" ],
+    "command": 2,
+    "squadron": 2,
+    "engineering": 3,
+    "defenses": [ "Evade", "Brace", "Redirect" ],
+    "speedTable": [
+      [ 2 ],
+      [ 1, 1 ],
+      [ 0, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Black" ]
+    },
+    "starboard": {
+      "shields": 2,
+      "shipAttack": [ "Black", "Black", "Black", "Black" ]
+    },
+    "port": {
+      "shields": 2,
+      "shipAttack": [ "Black", "Black", "Black", "Black" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "SupportTeam", "Ordnance" ],
+    "pointCost": 56
+  },
+  {
+    "faction": "Imperial",
+    "type": "GladiatorStarDestroyer",
+    "name": "Gladiator II-class Star Destroyer",
+    "hullPoints": 5,
+    "squadronAttack": [ "Blue", "Blue" ],
+    "command": 2,
+    "squadron": 2,
+    "engineering": 3,
+    "defenses": [ "Evade", "Brace", "Redirect" ],
+    "speedTable": [
+      [ 2 ],
+      [ 1, 1 ],
+      [ 0, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Black" ]
+    },
+    "starboard": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Black", "Black", "Black" ]
+    },
+    "port": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Black", "Black", "Black" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "SupportTeam", "Ordnance" ],
+    "pointCost": 62
+  },
+  {
+    "faction": "Imperial",
+    "type": "VictoryStarDestroyer",
+    "name": "Victory I-class Star Destroyer",
+    "hullPoints": 8,
+    "squadronAttack": [ "Blue" ],
+    "command": 3,
+    "squadron": 3,
+    "engineering": 4,
+    "defenses": [ "Brace", "Redirect", "Redirect" ],
+    "speedTable": [
+      [ 1 ],
+      [ 0, 1 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red", "Black", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Red" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Black" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Black" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "Ordnance", "Turbolasers" ],
+    "pointCost": 73
+  },
+  {
+    "faction": "Imperial",
+    "type": "VictoryStarDestroyer",
+    "name": "Victory II-class Star Destroyer",
+    "hullPoints": 8,
+    "squadronAttack": [ "Blue" ],
+    "command": 3,
+    "squadron": 3,
+    "engineering": 4,
+    "defenses": [ "Brace", "Redirect", "Redirect" ],
+    "speedTable": [
+      [ 1 ],
+      [ 0, 1 ]
+    ],
+    "bow": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Red", "Blue", "Blue", "Blue" ]
+    },
+    "stern": {
+      "shields": 1,
+      "shipAttack": [ "Red", "Red" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "IonCannons", "Turbolasers" ],
+    "pointCost": 85
+  },
+  {
+    "faction": "Imperial",
+    "type": "ImperialStarDestroyer",
+    "name": "Imperial I-class Star Destroyer",
+    "hullPoints": 11,
+    "squadronAttack": [ "Blue", "Black" ],
+    "command": 3,
+    "squadron": 4,
+    "engineering": 4,
+    "defenses": [ "Brace", "Redirect", "Redirect", "Contain" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Blue", "Black", "Red", "Blue", "Black", "Black" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Blue", "Blue" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Black", "Black" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Black", "Black" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "OffensiveRetrofit", "IonCannons", "Turbolasers" ],
+    "pointCost": 110
+  },
+  {
+    "faction": "Imperial",
+    "type": "ImperialStarDestroyer",
+    "name": "Imperial II-class Star Destroyer",
+    "hullPoints": 11,
+    "squadronAttack": [ "Blue", "Blue" ],
+    "command": 3,
+    "squadron": 4,
+    "engineering": 4,
+    "defenses": [ "Brace", "Redirect", "Redirect", "Contain" ],
+    "speedTable": [
+      [ 1 ],
+      [ 1, 1 ],
+      [ 0, 1, 1 ]
+    ],
+    "bow": {
+      "shields": 4,
+      "shipAttack": [ "Red", "Red", "Red", "Red", "Blue", "Blue", "Blue", "Blue" ]
+    },
+    "stern": {
+      "shields": 2,
+      "shipAttack": [ "Red", "Blue", "Blue" ]
+    },
+    "starboard": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Blue", "Blue" ]
+    },
+    "port": {
+      "shields": 3,
+      "shipAttack": [ "Red", "Red", "Blue", "Blue" ]
+    },
+    "upgradeOptions": [ "Officer", "WeaponsTeam", "OffensiveRetrofit", "DefensiveRetrofit", "IonCannons", "Turbolasers" ],
+    "pointCost": 120
+  }
+]

@@ -1,0 +1,38 @@
+﻿@import "Common/Core.scss";
+@import "Ship/Ship.scss";
+@import "Squadron/Squadron.scss";
+@import "Menu/Menu.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ship-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squadron-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faction-Imperial {
+    border: 5px solid white;
+}
+
+.faction-Rebel {
+    border: 5px solid red;
+}
+
+.section-label {
+    font-size: 36px;
+}

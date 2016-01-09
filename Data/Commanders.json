@@ -1,0 +1,62 @@
+﻿[
+  {
+    "faction": "Rebel",
+    "name": "General Dodonna",
+    "description": "Before an enemy ship is dealt a faceup damage card, look at the top 4 cards of the damage deck, place 1 on top of the deck, and discard the others.",
+    "pointCost": 20
+  },
+  {
+    "faction": "Rebel",
+    "name": "Garm Bel Iblis",
+    "description": "At the start of the first round and the fifth round, each friendly ship may gain a number of tokens equal to its command value.",
+    "pointCost": 25
+  },
+  {
+    "faction": "Rebel",
+    "name": "Mon Mothma",
+    "description": "When a friendly ship resolves the <evade/> token effect, it can cancel 1 die at medium range or reroll 1 die at close range or distance 1.",
+    "pointCost": 30
+  },
+  {
+    "faction": "Rebel",
+    "name": "General Rieekan",
+    "description": "When a friendly ship or friendly unique squadron is destroyed, it remains in the play area and is treated as if it was not destroyed until the end of the Status Phase.",
+    "pointCost": 30
+  },
+  {
+    "faction": "Rebel",
+    "name": "Admiral Ackbar",
+    "description": "Before a friendly ship's Attack Step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
+    "pointCost": 38
+  },
+  {
+    "faction": "Imperial",
+    "name": "Admiral Ozzel",
+    "description": "When a friendly ship resolves a <maneuver/> command, it may change its speed by an additional 1",
+    "pointCost": 20
+  },
+  {
+    "faction": "Imperial",
+    "name": "Admiral Motti",
+    "description": "the hull value of each friendly ship is increased according to its size class:<br/>Small ship: 1<br/>Medium ship: 2<br/>Large ship: 3",
+    "pointCost": 24
+  },
+  {
+    "faction": "Imperial",
+    "name": "Admiral Screed",
+    "description": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a <critical/> icon.",
+    "pointCost": 26
+  },
+  {
+    "faction": "Imperial",
+    "name": "Darth Vader",
+    "description": "While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.",
+    "pointCost": 36
+  },
+  {
+    "faction": "Imperial",
+    "name": "Grand Moff Tarkin",
+    "description": "At the start of each Ship Phase, you may choose 1 command. Each friendly ship gains a command token matching that command.",
+    "pointCost": 38
+  }
+]

@@ -1,0 +1,64 @@
+﻿.fleet-header {
+    font-size: 32px;
+    text-align: center;
+    color: aqua;
+}
+
+.fleet-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.build-fleet-container {
+    .build-fleet-button {
+        border-width: 2px;
+        border-style: solid;
+        margin: 10px;
+        padding: 10px;
+
+        font-size: 24px;
+        text-align: center;
+
+        flex: 1;
+    }
+
+    .build-imperial-fleet {
+        border-color: white;
+        color: white;
+    }
+
+    .build-rebel-fleet {
+        border-color: red;
+        color: red;
+    }
+}
+
+.fleet-history-container {
+    .fleet-history-button {
+        border: 2px solid green;
+        color: green;
+        margin: 5px;
+        padding: 5px;
+
+        font-size: 16px;
+        text-align: center;
+
+        flex: 1;
+    }
+
+    .view-fleet-history {
+
+    }
+
+    .import-fleet-history {
+
+    }
+
+    .export-fleet-history {
+
+    }
+}
